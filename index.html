@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Library Agnostic Image Cropper</title>
+	<link rel="stylesheet" href="Assets/Styles/image-crop.css">
+</head>
+<body>
+
+	<dl>
+		<dt>X:</dt>
+		<dd><input type="text" class="textInput" name="crop_x" id="input_crop_x"></dd>
+		<dt>Y:</dt>
+		<dd><input type="text" class="textInput" name="crop_y" id="input_crop_y"></dd>
+		<dt>Width:</dt>
+		<dd><input type="text" class="textInput" name="crop_width" id="input_crop_width"></dd>
+		<dt>Height:</dt>
+		<dd><input type="text" class="textInput" name="crop_height" id="input_crop_height"></dd>
+	</dl>
+	
+	<div class="crop_content">
+		<div id="imageContainer">
+			<img src="Assets/Images/nature.jpg">
+		</div>
+	</div>
+	
+	<script src="Assets/Scripts/image-crop.js"></script>
+	<script>
+		init_imageCrop();
+	</script>
+ 
+</body>
+</html>
+
+	
+	
